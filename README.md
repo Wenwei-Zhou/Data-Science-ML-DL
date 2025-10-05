@@ -1,3 +1,17 @@
+# Machine Learning & Deep Learning
+
+### Linear Regression with sklearn
+
+This project focuses on predicting car prices using linear regression based on real-world car sales data. The model was trained on a dataset containing car prices and mileage (distance driven). After training, predictions were compared against actual test data to evaluate performance.
+
+The results show that the model predicts mid-range car prices with reasonable accuracy. However, it performs less accurately for cheaper cars and some high-end vehicles. This is likely because price variations in these ranges depend on additional factors such as brand, condition, manufacturing year, and market demand, which are not included in the dataset.
+
+Through visualization of predicted vs. actual prices, the model’s strengths and limitations were analyzed, providing insights for potential improvements using more complex models or additional data features.
+
+### Logistic Regression – University Admission Prediction
+
+Built a logistic regression model to predict university admission based on SAT scores and gender. The model used dummy variable encoding and maximum likelihood estimation with statsmodels.Logit(). Results showed that SAT had a strong positive effect on admission probability, while gender also had a significant impact. Model performance was evaluated using a confusion matrix and accuracy score.
+
 ### 🧠 K-means
 
 This project applies K-Means clustering to analyze patterns within multidimensional data and identify meaningful groups based on feature similarity. The optimal number of clusters is determined using the Elbow Method, which evaluates the Within-Cluster Sum of Squares (WCSS) to balance model simplicity and cluster compactness.
