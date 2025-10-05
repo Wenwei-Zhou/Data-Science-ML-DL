@@ -1,6 +1,12 @@
+### 🧠 K-means
+
+This project applies K-Means clustering to analyze patterns within multidimensional data and identify meaningful groups based on feature similarity. The optimal number of clusters is determined using the Elbow Method, which evaluates the Within-Cluster Sum of Squares (WCSS) to balance model simplicity and cluster compactness.
+
+The clustering results are visualized through scatter plots to illustrate data distribution and heatmaps to highlight correlations and relationships between features. These visualizations provide valuable insights into the underlying structure of the dataset, helping reveal hidden trends, group behaviors, and feature interactions.
+
 ### TensorFlow
 
-TensorFlow to learn from training data and make predictions. The model consists of a single Dense layer that automatically initializes and optimizes weights and biases using the Stochastic Gradient Descent (SGD) optimizer. The training process, executed through model.fit(), adjusts parameters to minimize the Mean Squared Error (MSE) loss between predicted and target values. After training, model.predict_on_batch() is used to generate predictions based on the optimized model parameters.
+Use TensorFlow to learn from training data and make predictions. The model consists of a single Dense layer that automatically initializes and optimizes weights and biases using the Stochastic Gradient Descent (SGD) optimizer. The training process, executed through model.fit(), adjusts parameters to minimize the Mean Squared Error (MSE) loss between predicted and target values. After training, model.predict_on_batch() is used to generate predictions based on the optimized model parameters.
 
 ### MNIST
 
